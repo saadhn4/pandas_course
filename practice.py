@@ -54,7 +54,7 @@ import pandas as pd
 # print(series[series >= 70])
 # print(series[series < 50])
 
-steps = {"Monday": 8000, "Tuesday": 12000, "Wednesday": 9500, "Thursday": 15000}
+# steps = {"Monday": 8000, "Tuesday": 12000, "Wednesday": 9500, "Thursday": 15000}
 
 # Tasks:
 
@@ -71,3 +71,26 @@ steps = {"Monday": 8000, "Tuesday": 12000, "Wednesday": 9500, "Thursday": 15000}
 # series.loc["Monday"] += 2000
 # print(series)
 # print(series[series >= 10000])
+
+# ****** DAY 2 PRACTICE - DATAFRAMES *****
+
+# data = {"Name": ["Ali", "Omar", "Zain"], "Age": [19, 22, 25]}
+
+# df = pd.DataFrame(data, index=["Emp1", "Emp2", "Emp3"])
+
+# # print(df.loc["Emp2"])
+# # print(df.iloc[1])
+
+# df["Salary"] = [3000, 3500, 4000]
+
+# new_row = pd.DataFrame(
+#     [
+#         {"Name": "Hamza", "Age": 24, "Salary": 4500},
+#         {"Name": "Aisha", "Age": 26, "Salary": 5000},
+#         {"Name": "Fatima", "Age": 28, "Salary": 5500},
+#     ],
+#     index=["Emp4", "Emp5", "Emp6"],
+# )
+
+# df = pd.concat([df, new_row])
+# print(df)
